@@ -4,28 +4,57 @@
     <head>
         <meta charset="UTF-8">
          <title>Recipes</title>
+         <link rel = "stylesheet" href = "style.css">
 
     </head>
     <body>
-        <h1>
-            Odin Recipes
-        </h1>
-        <h2>Recipes that people enjoy</h2>
-        <img src = "images/istockphoto-1457433817-612x612.jpg" alt = "Food">
-        <p>Here are some recipes of the food I enjoy, I hope you enjoy them too</p>
-        <ul>
-            <li>       
-                <a href = "recipes/lasagna.html">Lasagna</a>
-                <!-- <img src = "images/images.jpeg" alt = "Lasagna"></li> -->
-            <li>
-                <a href = "recipes/ramen.html">Ramen</a>
-                <!--insert image here-->
-            </li>
+        <div class = "top-bar">
+            <div class = "title-page">
+                <h1 id = "title">
+                Odin Recipes
+                </h1>
+            
+            </div>
+        </div>
+            
+        <nav class = "nav-bar">
+            <ul>
+                <!--our other types of lists-->
+                <li>
+                    <a href = "">Home</a>
+                </li>
+                <li>
+                    <a href = "">About</a>
+                </li>
+                <li>
+                    <a href = "">Find restaurants</a>
+                </li>
 
-            <li>
-                <a href = "recipes/burger.html">Cheeseburger</a>
-                <!--insert image here-->
-        </ul>
+                <!--our search bar class-->
+                <li>
+                <div class = "search-bar">
+                    <label for =  "search">Search for a recipe:</label>
+                    <input type = "search" id = "search">
+                    <button id = "search-button">Search</button>
+                </div>
+                </li>
+            </ul>
+        </nav>
+
+
+        
+        <h2 id = "recipes">Recipes for people enjoy</h2>
+        <img src = "images/istockphoto-1457433817-612x612.jpg" alt = "Food" id = "food-image">
+
+        <h3>
+            Random recipes
+        </h3>
+
+        <div class = "food-items-section">
+            <div class = "food-items"> 
+                <a href = "recipes/lasagna.html"><img src ="images/lasagna.jpeg" alt = "Lasagna" id = "lasagna-image"></a>
+            </div>
+        </div>
     </body>
     <!--this is a test-->
     

@@ -1,0 +1,25 @@
+
+#title{
+    text-align: center;
+}
+
+#recipes{
+    text-align: center; 
+    
+}
+
+
+#food-image{
+    display: block;
+    margin: auto;    
+}
+
+p{
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    text-align: center;
+}
+
